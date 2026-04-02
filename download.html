@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download Your Model</title>
+  <link rel="stylesheet" href="download.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Your Download is Ready</h1>
+    <p>Click the button below to download your 3D model.</p>
+
+    <a id="file-link" class="btn" href="#" download>Download Model</a>
+  </div>
+
+  <script>
+    // --- BLOCK ACCESS IF USER DID NOT PAY ---
+    if (localStorage.getItem("paid") !== "true") {
+      window.location.href = "index.html";
+    }
+
+    // --- GET MODEL FILE ---
+    const params = new URLSearchParams(window.location.search);
+    const model = params.get("model");
+
+    if (model) {
+      document.getElementById("file-link").href = model;
+    } else {
+      document.getElementById("file-link").textContent = "Error: No file found.";
+      document.getElementById("file-link").removeAttribute("href");
+    }
+
+    // --- CLEAR PAYMENT FLAG ---
+    localStorage.removeItem("paid");
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="checkout.css" />
+
+  <!-- PAYPAL SDK -->
+  <!-- 🔥 PASTE YOUR CLIENT ID AFTER client-id= -->
+  <script src="https://www.paypal.com/sdk/js?AZy2CyMNgrV7jJ6vxyesmG-P6jKw8Fldc9plgbfZ2pmB6ZiX38gv6xM3UX5IAfO_mr222eBy12eJDA2V&currency=USD"></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Checkout</h1>
+  </header>
+
+  <main class="container">
+    <section class="summary">
+      <img id="product-img" class="thumb" />
+      <h2 id="product-name"></h2>
+      <p id="product-price" class="price"></p>
+    </section>
+
+    <section class="payment-box">
+      <h3>Payment Information</h3>
+
+      <label>Cardholder Name</label>
+      <input type="text" id="card-name" placeholder="John Doe" />
+
+      <label>Card Number</label>
+      <input type="text" id="card-number" placeholder="1234 5678 9012 3456" />
+
+      <div class="row">
+        <div>
+          <label>Expiration</label>
+          <input type="text" id="card-exp" placeholder="MM/YY" />
+        </div>
+        <div>
+          <label>CVC</label>
+          <input type="text" id="card-cvc" placeholder="123" />
+        </div>
+      </div>
+
+      <!-- Your Pay Now button -->
+      <button id="pay-btn" class="btn">Pay Now</button>
+
+      <!-- PayPal button goes UNDER Pay Now -->
+      <div id="paypal-button-container" style="margin-top: 20px;"></div>
+    </section>
+  </main>
+
+  <script src="checkout.js"></script>
+</body>
+</html>

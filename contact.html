@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - TREEWOOD 3D</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">TREEWOOD 3D</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <section class="page-box">
+      <h2>Contact</h2>
+      <p>If you have questions, business inquiries, or requests, feel free to reach out.</p>
+
+      <!-- CONTACT FORM WITH YOUR FORMSPREE URL -->
+      <form class="contact-form" action="https://formspree.io/f/mykbdpyz" method="POST">
+
+        <!-- Email subject line -->
+        <input type="hidden" name="_subject" value="New message from TREEWOOD 3D" />
+
+        <label>Your Name</label>
+        <input type="text" name="name" placeholder="John Doe" required />
+
+        <label>Your Email</label>
+        <input type="email" name="email" placeholder="example@email.com" required />
+
+        <label>Your Message</label>
+        <textarea name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
