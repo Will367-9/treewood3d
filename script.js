@@ -31,6 +31,16 @@ const products = [
     thumbnail: "assets/thumbnails/Low Poly Heavy Sword.png",
     payhipLink: "https://payhip.com/b/u6BjA",
     description: "Stylized 3D Thick Sword."
+  },
+
+  // ⭐ NEW PRODUCT ADDED ⭐
+  {
+    id: "ray-sword",
+    name: "Ray Powered Sword",
+    price: 0.00,
+    thumbnail: "assets/thumbnails/Brodie's Sword.png",
+    payhipLink: "https://payhip.com/b/zX6xn",
+    description: "Free model asset."
   }
 ];
 
