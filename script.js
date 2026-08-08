@@ -42,6 +42,16 @@ const products = [
     payhipLink: "https://payhip.com/b/zX6xn",
     description: "Free model asset."
   }
+
+      // ⭐ NEW PRODUCT ADDED ⭐
+  {
+    id: "Tron-weapon",
+    name: "TRON DISK",
+    price: 0.00,
+    thumbnail: "assets/thumbnails/TronDisk.png",
+    payhipLink: "https://payhip.com/b/J4UB5",
+    description: "Free model asset."
+  },
 ];
 
 // --- RENDER PRODUCTS ---
