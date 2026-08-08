@@ -41,9 +41,9 @@ const products = [
     thumbnail: "assets/thumbnails/Brodie's Sword.png",
     payhipLink: "https://payhip.com/b/zX6xn",
     description: "Free model asset."
-  }
+  },
 
-      // ⭐ NEW PRODUCT ADDED ⭐
+    // ⭐ NEW PRODUCT ADDED ⭐
   {
     id: "Tron-weapon",
     name: "TRON DISK",
@@ -52,6 +52,7 @@ const products = [
     payhipLink: "https://payhip.com/b/J4UB5",
     description: "Free model asset."
   },
+
 ];
 
 // --- RENDER PRODUCTS ---
