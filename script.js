@@ -53,6 +53,16 @@ const products = [
     description: "Free model asset."
   },
 
+      // ⭐ NEW PRODUCT ADDED ⭐
+  {
+    id: "Coffee/Mug/Cup/-Brickwood_Model",
+    name: "Brickwood Mug",
+    price: 0.00,
+    thumbnail: "assets/thumbnails/Brickwood_Mug.png",
+    payhipLink: "https://payhip.com/b/HNuw1",
+    description: "Special Brickwood Mug/Files"
+  },
+
 ];
 
 // --- RENDER PRODUCTS ---
