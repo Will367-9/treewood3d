@@ -63,6 +63,16 @@ const products = [
     description: "Special Brickwood Mug/Files"
   },
 
+        // ⭐ NEW PRODUCT ADDED ⭐
+  {
+    id: "Stand/Test Object/Material Display/-Brickwood_Model",
+    name: "Brickwood Material Displayer",
+    price: 1.00,
+    thumbnail: "assets/thumbnails/CarPaint_Material_Blender.jpg",
+    payhipLink: "https://payhip.com/b/MXYmJ",
+    description: "Special Brickwood Material Displayer/Files"
+  },
+
 ];
 
 // --- RENDER PRODUCTS ---
