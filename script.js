@@ -11,7 +11,7 @@ const products = [
   {
     id: "lowpoly-sword",
     name: "Low Poly Sword",
-    price: 7.99,
+    price: "free",
     thumbnail: "assets/thumbnails/Low Poly Sword.png",
     payhipLink: "https://payhip.com/b/IRosc",
     description: "Test Subject."
@@ -27,7 +27,7 @@ const products = [
   {
     id: "heavy-sword",
     name: "Plasma Heavy Weight Sword",
-    price: 7.99,
+    price: "free",
     thumbnail: "assets/thumbnails/Low Poly Heavy Sword.png",
     payhipLink: "https://payhip.com/b/u6BjA",
     description: "Stylized 3D Thick Sword."
@@ -37,7 +37,7 @@ const products = [
   {
     id: "ray-sword",
     name: "Ray Powered Sword",
-    price: 0.00,
+    price: 1.00,
     thumbnail: "assets/thumbnails/Brodie's Sword.png",
     payhipLink: "https://payhip.com/b/zX6xn",
     description: "Free model asset."
@@ -47,7 +47,7 @@ const products = [
   {
     id: "Tron-weapon",
     name: "TRON DISK",
-    price: 0.00,
+    price: "free",
     thumbnail: "assets/thumbnails/TronDisk.png",
     payhipLink: "https://payhip.com/b/J4UB5",
     description: "Free model asset."
@@ -71,6 +71,16 @@ const products = [
     thumbnail: "assets/thumbnails/CarPaint_Material_Blender.jpg",
     payhipLink: "https://payhip.com/b/MXYmJ",
     description: "Special Brickwood Material Displayer/Files"
+  },
+
+          // ⭐ NEW PRODUCT ADDED ⭐
+  {
+    id: "Object/Brickwood Model/Speaker",
+    name: "Logi Speaker",
+    price: "free",
+    thumbnail: "assets/thumbnails/Will's logi Speaker.png",
+    payhipLink: "https://payhip.com/b/XGdWr",
+    description: "Logi System Speaker"
   },
 
 ];
