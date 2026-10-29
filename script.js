@@ -81,7 +81,7 @@ const products = [
     id: "Object/Brickwood Model/Speaker",
     name: "Logi Speaker",
     price: 0.00,
-    thumbnail: "assets/thumbnails/Will's logi Speaker.png",
+    thumbnail: "assets/thumbnails/Will's Logi Speaker.png",
     payhipLink: "https://payhip.com/b/XGdWr",
     description: "Free model asset."
   },
